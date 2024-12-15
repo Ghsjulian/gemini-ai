@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" l />
+        <meta name="author" />
+        <title>SIRI Virtual Assistant</title>
+        <link rel="stylesheet" href="/css/index.css" />
+    </head>
+    <body>
+        <div class="ai-container">
+            <header>
+                <div class="flex">
+                    <span>12-12-2024</span>
+                    <span>12:32PM</span>
+                </div>
+            </header>
+            <div class="siri">
+                <div class="circle-1">
+                    <img src="/images/circle_1.png" />
+                </div>
+                <div class="circle-2">
+                    <img src="/images/circle_2.png" />
+                </div>
+            </div>
+            <main>
+              
+            </main>
+            <footer>
+                <audio style="display:none" id="audioPlayer"  controls></audio>
+                <button class="add-btn">+</button>
+                <textarea class="user-msg" placeholder="Enter Your Command..."></textarea>
+                <button class="enter-btn">Enter</button>
+            </footer>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/recognizer.js"></script>
+    </body>
+</html>
