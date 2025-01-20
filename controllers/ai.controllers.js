@@ -1,4 +1,4 @@
-const {AI} = require("../ai/AI");
+const { AI } = require("../ai/AI");
 
 class AIController {
     async chatMessage(req, res) {
